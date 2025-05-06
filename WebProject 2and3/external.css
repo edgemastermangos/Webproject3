@@ -1,0 +1,81 @@
+/*
+Colour Scheme: Analogous with Earth Tones
+
+Main Colour: Forest Green (#2e7d32)
+- Represents nature, growth, and the deep connection to land and Treaty relationships.
+
+Secondary Colour: Sky Blue (#1976d2)
+- Symbolizes trust, calm, and respect – creating a peaceful environment for students to learn.
+
+Accent Colour: Warm Beige (#f5f5dc)
+- Feels like parchment or natural paper, making the site feel welcoming and grounded.
+
+Neutral Colours: White (#ffffff) and Dark Gray (#333333)
+- White for clean sections and contrast, dark gray for readable body text.
+
+This colour scheme was chosen to be calming and respectful for a Grades 5–8 audience learning about the history and importance of Treaties in Manitoba.
+*/
+
+/* General styles */
+/* Styling for the header and navigation bar */
+header, nav {
+  background-color: #2e7d32; /* Forest Green for a natural and calming feel */
+  color: #ffffff; /* White text for contrast */
+  padding: 20px; /* Adds spacing inside the header and nav */
+  text-align: right; /* Centers the text */
+}
+
+/* Styling for navigation links */
+nav a {
+  color: #ffffff; /* White text for navigation links */
+  text-decoration: none; /* Removes underline from links */
+  margin: 0 15px; /* Adds horizontal spacing between links */
+  font-weight: bold; /* Makes the links bold */
+}
+
+/* Hover effect for navigation links */
+nav a:hover {
+  color: #1976d2; /* Sky Blue for a calming hover effect */
+}
+
+/* Styling for sections */
+section {
+  background-color: #ffffff; /* White background for clean and readable sections */
+  padding: 20px; /* Adds spacing inside the section */
+  margin: 20px; /* Adds spacing outside the section */
+  border-radius: 8px; /* Rounds the corners for a softer look */
+}
+
+/* Styling for headings */
+h1, h2, h3 {
+  color: #2e7d32; /* Forest Green for headings to maintain consistency */
+}
+
+/* Styling for general links */
+a {
+  color: #1976d2; /* Sky Blue for links to make them stand out */
+}
+
+/* Styling for the navigation bar with id 'SKIBIDITOILET' */
+#SKIBIDITOILET {
+    border: 2px black solid;
+    background-color: black;
+    color: white;
+    margin: 2px;
+}
+
+/* Styling for the body with id 'SIGMA' */
+#SIGMA {
+  background-color: #f5f5dc;
+  color: #333333;
+  font-family: 'Open Sans', sans-serif;
+  line-height: 1.6;
+  margin: 0;
+  padding: 0;
+}
+
+/* Styling for all paragraph elements */
+p {
+    font-family: serif;
+    font-size: 20px;
+}
